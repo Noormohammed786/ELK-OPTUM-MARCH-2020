@@ -1,1 +1,42 @@
 
+http://bit.ly/3ak76YJ
+=================================
+35.154.63.186
+
+Demo 1 
+Download and install Elasticsearch on your local machine
+https://www.devopsschool.com/tutorial/elastic/elastic-search-single-node-
+
+installation-and-verification-guide.html
+
+Step 1 - Download a ElasticSearch Package from
+https://www.elastic.co/downloads/elasticsearch
+
+Step 2 - Extract the tar compressed file
+
+Step 3 - Understand a structure of packe
+$ ls -1
+bin			# START and STOP SCRIPT
+config			# Config file of elasticsearch i.e elasticsearch.yml
+jdk			# Packed JRE for elasticsearch
+lib			# Jar file for elasticsearch products
+LICENSE.txt
+logs			# Contains a log of elasticsearch 
+modules		
+NOTICE.txt
+plugins			# elasticsearch plugins
+README.asciidoc
+
+Step 4 - Spend some time and become familiar with elasticsearch.yml for 
+
+various sections such as following....
+Cluster
+Node
+Paths
+Memory
+Network
+Discovery
+Gateway
+Various
+
+Step 5 - Start a Elastic Search.
