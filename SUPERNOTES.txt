@@ -70,5 +70,25 @@ create-read-update-delete.html
 Qa
 ===========
 
+TOOLS ----> How to work with this tool?
+How to build TOOLS?
+
+BEATS --> LOG -> ELASTICSEARCH <------ KIBANA
+4L -> -?BEATS --> LOG -> ELASTICSEARCH <------ KIBANA
+						RUN A SAME with DSL - 
+						REPORT
+
+BEATS --> LOG -> ELASTICSEARCH <------ HUMAN (CURL)
+
+Demo 3 - Working with BULK Operations.
+https://www.devopsschool.com/tutorial/elastic/elastic-search-bulk-
+
+operation.html
+
+Demp 4 - DLS part 1
+https://www.devopsschool.com/tutorial/elastic/elastic-search-query-dsl-
+
+guide-introduction-part1.html
+
 
 
