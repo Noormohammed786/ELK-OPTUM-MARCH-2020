@@ -62,5 +62,13 @@ curl.html
 
 
 Demo 3 - Working with CRUD
+https://www.devopsschool.com/tutorial/elastic/elasticsearch-workflow-crud-
+
+create-read-update-delete.html
+
+
+Qa
+===========
+
 
 
