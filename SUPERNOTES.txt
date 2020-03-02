@@ -1,3 +1,8 @@
+1
+2	192.168.1.24
+3	192.168.1.44
+4 	192.168.1.35
+
 http://bit.ly/3ak76YJ
 =================================
 35.154.63.186
@@ -45,5 +50,17 @@ $ useradd -s /bin/bash -c "ElasticSearc" -U es
 $ passwd es
 $ su es
 
+
+Demo 2 - Working with API
+https://www.devopsschool.com/blog/what-are-the-method-to-interact-with-
+
+elastic-search/
+
+https://www.devopsschool.com/tutorial/elastic/elastic-search-using-rest-api-
+
+curl.html
+
+
+Demo 3 - Working with CRUD
 
 
