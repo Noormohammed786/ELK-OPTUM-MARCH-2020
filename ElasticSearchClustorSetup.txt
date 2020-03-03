@@ -77,7 +77,25 @@ echo $ES_HEAP_SIZE
 export ES_JAVA_OPTS="-Xms1000m -Xmx2000m" /home/ec2-user/elasticsearch-7.6.0/bin/elasticsearch
 
 $ cd /home/ec2-user/elasticsearch-7.6.0/config
-$ vi jvm.options # Make -Xmx1g to -Xmx2g
+$ vi jvm.options # Make -Xmx1g to -Xmx1g
+$ more /home/ec2-user/elasticsearch-7.6.0/config/jvm.options | grep Xm
+CLIENT
+.........
+-Xms1g
+-Xmx1g
+
+Master
+........
+-Xms2g
+-Xmx2g
+
+DATA
+.......
+-Xms1g
+-Xmx1g
+
+
+
 
 Step 4. DO Modification in elasticsearch.yml
 LOCATION - /home/ec2-user/elasticsearch-7.6.0/config/elasticsearch.yml
@@ -143,6 +161,11 @@ How to verify?
 curl http://172.31.0.107:9200
 curl http://172.31.14.88:9200
 curl http://172.31.13.85:9200
+
+curl -X GET "172.31.0.107:9200/_cat/nodes?v"
+curl -X GET "172.31.0.107:9200/_cat/health?v"
+curl -X GET "172.31.0.107:9200/_cat/master?v"
+
 
 
 
