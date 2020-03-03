@@ -145,3 +145,13 @@ curl http://172.31.14.88:9200
 curl http://172.31.13.85:9200
 
 
+
+
+FAQ
+===================
+QA - How to add user in sudo list.
+By default, on CentOS, members of the wheel group have sudo privileges.. Use the usermod command to add the user to the 
+
+wheel group.
+$ usermod -aG wheel username
+
